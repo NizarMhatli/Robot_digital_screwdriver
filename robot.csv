@@ -1,0 +1,8 @@
+Robot_Link,1
+Joint_Angle,"[48.81493, -9.119407, 78.00558, 20.83278, 89.80111, -221.28]"
+MA_Mode,2
+Error_Code,0
+TCP_Speed3D,5.531227e-08
+Joint_Current,"[0, 0, 0, 0, 0, 0]"
+Manipulator_Current,0.4726093
+Coord_Robot_Flange,"[372.0001, 239.0014, 600.0005, -179.9999, -0.0005051139, 0.0006129349]"
