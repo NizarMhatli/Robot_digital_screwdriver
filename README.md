@@ -98,7 +98,7 @@ Note: the conveyor and Tool changer are connected and controlled by the NX1 PLC.
 - control conveyor motion.
 - control robot end effector tool using tool changer.
 - collect data for robot motion, gripper sensors and product count.
-- display sensor data in in HMi in different forms
+- display sensor data  in HMi in different forms
 - display machine and hardware statues
 - manual control for each hardware part 
 - reset hardware
@@ -111,4 +111,109 @@ To activate this programm after checking all the connections just run the main_a
 The HMI will appear: 
 
 #HMI explain: 
+
+Main menu: 
+
+
+![HMI-main](https://github.com/NizarMhatli/Robot_digital_screwdriver/assets/47193436/e8379c10-c147-40d3-8b26-c0fcf1efb1df)
+
+
+displays all hardware connection statuses, and which option is running (manual or automatic).
+
+display sensor data options button.
+
+reset saved data files.
+
+display the active ports. 
+
+display end tool attached to the robot.
+
+display automatic cycle status.
+
+
+to start the automatic process press the OK button on the start application frame, and click on cancel to stop.
+
+to open the manual control panel press the OK button on the manual display frame, click on cancel to stop.
+
+to open the sensor data display press the OK button on the Figure option, and click on cancel top stop.
+
+Automatic process: 
+
+1-  conveyor transports the product to the picking location
+
+2- the robot moves to pick the product
+
+3-  robot picks the product (the touchence sensor will check product availability if ok will pick if no product is available  cycle will reset)
+
+4-  robot transport product to screw-in location 
+
+5- the robot moves to change the tool from gripper to PRO-FUSE 
+
+6-  move the robot to product location 
+
+7-  install the screw in the product 
+
+8-  return the robot to the tool change
+
+9-  change the tool back to the gripper 
+
+10- move product from screw-in location to conveyor 
+
+11- return the robot to the start position
+
+Manuel control: 
+
+
+
+![HMI-manul](https://github.com/NizarMhatli/Robot_digital_screwdriver/assets/47193436/b610c6d4-c940-4195-8076-520d30e4bc03)
+
+
+
+Manuel control of all hardware parts: 
+
+control gripper position, torque, force, and speed, open or close gripper 
+
+control end effect tool lock and unlock
+
+safety buttons, reset robot position.
+
+led indicator to display if the machine in cycle or note
+
+control conveyor  position  
+
+control digital screwdriver 
+
+
+![HMI-data1](https://github.com/NizarMhatli/Robot_digital_screwdriver/assets/47193436/ea8ccf0b-9441-4d3b-ac68-fa5765f594d0)
+
+
+
+digital display menu, this panel will appear when  the OK button on the Figure option frame is pressed
+
+click on the arrow to change the display option: 
+
+![HMI-data2](https://github.com/NizarMhatli/Robot_digital_screwdriver/assets/47193436/4d133b2e-dd86-4bf6-be9d-2c07542c83c7)
+
+
+display sensor data as a linear figure
+
+
+
+![HMI-data3](https://github.com/NizarMhatli/Robot_digital_screwdriver/assets/47193436/f2873d58-2170-453b-a578-b861172e5897)
+
+
+
+display the sensor status in a 3D model
+
+
+![HMI-data4](https://github.com/NizarMhatli/Robot_digital_screwdriver/assets/47193436/4a9f7b9a-415a-463d-94b4-7e032d36d83e)
+
+
+display the sensor data as a heat map 
+
+
+
+
+
+
 
