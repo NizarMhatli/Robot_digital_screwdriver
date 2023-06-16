@@ -6,15 +6,24 @@ This package mainly uses python.
 This software has both hardware control algorthims and human machine interface.
 this project combines all the knowhow used in the previous pragramms used for Touchence sensors, digital screwdriver control software and Robotiq f2-85
 gripper. (you can see all the different packages used in this profile)
-Hardware used: 
+
+# Hardware used: 
+
 Omron Cobot Techman robot: https://www.tm-robot.com/en/tm5-900/ 
+
 Omron NX1 PLC: https://industrial.omron.eu/en/products/nx1
+
 Robotiq f2-85: https://robotiq.com/products/2f85-140-adaptive-robot-gripper
+
 PRO-FUSE digital screwdriver: https://www.hp-vanguard.com/products/2015101425/
+
 Touchence pressure sensor: http://www.touchence.jp/en/products/cube03.html
+
 Pascal Robot tool changer: https://www.pascaleng.co.jp/us/products/robot/robot_tool_changer/
 
-#packages used: 
+
+# packages used: 
+
 Robotic-gripper-with-haptic-feedback
 PRO-FUSE-CONTROL
 ROBOTIQ-python-manager
@@ -91,7 +100,7 @@ Robotiq f2-85 and Touchence use serial usb ports
 Note: the conveyor and Tool changer are connected and controlled by the NX1 PLC.
 
 
-#Features:
+# Features:
 
 - Control screw in/out using the digital screwdriver.
 - Control robot pick and place trajectory.
@@ -110,9 +119,9 @@ To activate this programm after checking all the connections just run the main_a
 
 The HMI will appear: 
 
-#HMI explain: 
+# HMI explain: 
 
-Main menu: 
+# Main menu: 
 
 
 ![HMI-main](https://github.com/NizarMhatli/Robot_digital_screwdriver/assets/47193436/e8379c10-c147-40d3-8b26-c0fcf1efb1df)
@@ -137,7 +146,7 @@ to open the manual control panel press the OK button on the manual display frame
 
 to open the sensor data display press the OK button on the Figure option, and click on cancel top stop.
 
-Automatic process: 
+# Automatic process: 
 
 1-  conveyor transports the product to the picking location
 
@@ -161,7 +170,7 @@ Automatic process:
 
 11- return the robot to the start position
 
-Manuel control: 
+# Manuel control: 
 
 
 
@@ -169,7 +178,7 @@ Manuel control:
 
 
 
-Manuel control of all hardware parts: 
+# Manuel control of all hardware parts: 
 
 control gripper position, torque, force, and speed, open or close gripper 
 
